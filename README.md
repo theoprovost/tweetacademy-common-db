@@ -86,7 +86,7 @@ public function getConnection()
 }
 ```
 <br>
-Ne tenez pas compte du procain paragraphe/encart si ça vous embrouille et utilisez la première version de `getConnection()`. <br> <br>
+Ne tenez pas compte du prochain paragraphe/encart si ça vous embrouille et utilisez la première version de `getConnection()`. <br> <br>
 
 La présence d'informations senseibles suppose la création d'un fichier `.env` à la racine de votre projet. Ce fichier contiendra les variables d'environnement nécessaire à votre programme. A commencer par les credentials nécessaire à la connexion à la base de donnée.
 La syntaxe de ce fichier est la suivante :
@@ -105,7 +105,7 @@ DB_PASSWORD=2f185889-9694-4b3c-8224-47e2993c432b
 ```
 ⚠️ Pas d'espace entre les "=", pas de ";", tout est collé, des retours à la lignes sont effectués pour chaque nouvelle variable. <br> <br>
 NB: Il faudra utiliser un package externe ou - sans `.env `- passer les variables au moment du lancement du serveur. <br> <br>
-Maintenant, testons notre connexion.
+Maintenant, testons notre connexion (code ci-dessous valable uniquement si vous avez le code précedent sur la même page - à adapter en fonction, evidemment -).
 ```php
 // On stock la connexion qui nous est retournée par getConnection()
 $connexion = getConnection($db_host, $db_name, $db_user, $db_password);
