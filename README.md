@@ -113,7 +113,7 @@ $connexion = getConnection($db_host, $db_name, $db_user, $db_password);
 // On stock une query basique dont on sait qu'elle devrait nous retourner qqch
 $sql = "SELECT * FROM users";
 
-// Cf. la doc, on utilise les méthodes de PDO
+// Cf. la doc, on utilise les méthodes de PDO (alors à la publication de la V1 : nous n'avons pas rentré de données : donc il n'y aura rien de retourner. L'inmportant ici est de ne pas avoir d'erreurs de la part de MySql)
 $query = $connexion->prepare($sql);
 $query->execute();
 $data = $query->fetchAll(PDO::FETCH_ASSOC);
