@@ -1,3 +1,4 @@
 %syntax-version=1.0.0
 %project=twa_common_db
 
+create_users 2021-02-09T15:54:39Z Théo Provost <theo.provost@epitech.eu> # Create users table
