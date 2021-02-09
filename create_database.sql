@@ -12,3 +12,4 @@ CREATE DATABASE IF NOT EXISTS twa_common_db;
 
 USE twa_common_db;
 GRANT ALL PRIVILEGES ON twa_common_db.* TO twa_admin@localhost WITH GRANT OPTION;
+FLUSH PRIVILEGES;

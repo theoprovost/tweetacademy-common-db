@@ -38,7 +38,7 @@ DB port : 3306
 
 6. A cette étape, si tout est ok de votre côté, vous pouvez commencer à executer les différents fichiers de deploy. La seule spécificité à respecter es d'appliquer ces fichiers **dans l'ordre chronologique** (la date est présente dans chaque fichier, et à défaut, vous pouvez regarder le `sqitch.plan` qui répertorie les fichiers dans l'ordre de création).
 
-NB : Si vous souhaitez repartir depuis 0, le plus simple est de ré-excuter le premier fichier (`create_database.sql`). Néanmoins, si vous souhaitez revenir à l'étape n-1, il vous suffit d'utiliser le fichier correspondant disponible dans `revert/`.
+NB : Si vous souhaitez repartir depuis 0, le plus simple est de ré-excuter le premier fichier (`create_database.sql` avec l'utilsateur **root**). Néanmoins, si vous souhaitez revenir à l'étape n-1, il vous suffit d'utiliser le fichier correspondant disponible dans `revert/` (avec l'user **twa_admin** cette fois ci).
 
 ## Comment utiliser ma BDD dans mon projet ?
 
