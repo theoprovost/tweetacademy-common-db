@@ -2,3 +2,5 @@
 %project=twa_common_db
 
 create_users 2021-02-09T15:54:39Z Théo Provost <theo.provost@epitech.eu> # Create users table
+create_tweets 2021-02-11T15:23:08Z Théo Provost <theo.provost@epitech.eu> # Table tweet creation
+create_followers 2021-02-11T15:35:43Z Théo Provost <theo.provost@epitech.eu> # Followers table creation

@@ -1,12 +1,25 @@
 # Création de la base de donnée commune
 
+> 💃🏽 La V2 vient d'être publiée. N'hésitez pas y jeter un oeil. Elle est disponible sur le branche 'V2', pour y accèder :
+> - vous avez n'avez pas encore cloné le repo une première fois : <br>
+    - `git clone urlduprojet ` <br>
+    - `git checkout V2`
+    <br>
+> - Vous avez déjà cloné une première fois : <br>
+    - `git pull` <br>
+    - `git checkout V2` <br><br>
+>Je vous en remets à la documentation de git pour comprendre ces commandes.
+<br><br>
+
+
 ```
 Prérequis :
     - PHP^7.0
     - MYSQL^8.0
     - (PhpMyAdmin)
 ```
-Attention : ce n'est apas une bonne chose de commit des informations sensibles. Donc faites en sorte de gitignore le dossier. <br>
+
+Attention : ce n'est pas une bonne chose de commit des informations sensibles. Donc faites en sorte de gitignore le dossier. <br>
 Prochainement, nous travaillerons à la mise en place du base de donnée commune, hebergée sur un serveur - donc accessible à tous -.
 
 ## Etapes à suivre pour mettre en place la BDD :
@@ -122,13 +135,12 @@ $data = $query->fetchAll(PDO::FETCH_ASSOC);
 var_dump($data);
 ```
 Et voilà, vous avez une connexion établie, il ne vous reste plus qu'à vous en servir. ✌️
-
 <br>
 
-💡 Si vous avez la moindre question, n'hesitez pas ! <br>
+## Commentaires relatifs à la V2
+- Ajout de commentaires sur toutes les tables.
+- Modifications de la table `users` : ajout d'une colonne `name`.
+- Création de la table `followers` : cette table stock en son sein les relations qui unissent les utilisateurs entre eux (sous forme de pair : une personne peut suivre un nombre n d'utilisateur, un personne peut être suivi par n personnes).
+- Création de la table `tweets` : c'est là ou sera stocké les tweets. Cette table sera sans doutes amené à évoluer pour intégrer son "type" (tweet simple, réponse, retweet...) et lui offir d'autres fonctionnalités (ajout de médias...).
 
-D'ici là, je vous donne rendez-vous jeudi pour un appel groupé pour répondre à vos questions, vous proposer la V2 de la base de donnée :)
-
-N'oubliez pas de voter pour le créneau qui vous arrange (l'heure vous sera transmise mercredi soir avant 18h, vous devez donc voter avant 17h) ⬇️
-
-https://doodle.com/poll/c6ew8dqx96bwz74b?utm_source=poll&utm_medium=link
+> Encore une fois, si vous avez la moindre question, n'hésitez pas !
