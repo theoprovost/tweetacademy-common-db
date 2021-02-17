@@ -139,6 +139,9 @@ Et voilà, vous avez une connexion établie, il ne vous reste plus qu'à vous en
 <br>
 
 ## Commentaires relatifs à la V2
+
+PS : des colonnes ayant été ajoutées dans les tables de la V1, je vous conseille de DROP la DB compète et de refaire le processus depuis le début. Les credentials resteront les mêmes bien entendu, cela permet juste de s'assurer que la base de donnée que vous avez est bien en adéquation avec la dernière version sortie.
+
 - Ajout de commentaires sur toutes les tables.
 - Modifications de la table `users` : ajout d'une colonne `name`.
 - Création de la table `followers` : cette table stock en son sein les relations qui unissent les utilisateurs entre eux (sous forme de pair : une personne peut suivre un nombre n d'utilisateur, un personne peut être suivi par n personnes).
@@ -155,7 +158,7 @@ Et voilà, vous avez une connexion établie, il ne vous reste plus qu'à vous en
 - [x] ajout de la colonne 'original_tweet_id' <br>
 - [x] ajout de la table likes <br>
 
-## Commentaire V2.5
+## Commentaires V2.5
 Veuillez prendre en compte les ajouts cités ci-dessous (cf. Note à moi-même). Ils référencent la majorité des changements. Des commentaires ont été ajoutés directement sur les fichiers SQL. Veuillez les lire. A la suite de cela, si vous avez encore des intérogations, des remarques, j'y répondrais avec plaisir demain. <br><br>
 N'oubliez pas que c'est un travail commun et qu'il est important que tout le monde soit capable de comprendre ces fichiers, ses raisons, son fonctionnement.
 
