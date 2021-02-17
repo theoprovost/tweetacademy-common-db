@@ -10,6 +10,7 @@
     - `git checkout V2` <br><br>
 >Je vous en remets à la documentation de git pour comprendre ces commandes.
 <br><br>
+> ➕ Des commentaires ont été ajoutés à la fin de ce fichier :) <br><br>
 
 
 ```
@@ -141,10 +142,9 @@ Et voilà, vous avez une connexion établie, il ne vous reste plus qu'à vous en
 - Ajout de commentaires sur toutes les tables.
 - Modifications de la table `users` : ajout d'une colonne `name`.
 - Création de la table `followers` : cette table stock en son sein les relations qui unissent les utilisateurs entre eux (sous forme de pair : une personne peut suivre un nombre n d'utilisateur, un personne peut être suivi par n personnes).
-- Création de la table `tweets` : c'est là ou sera stocké les tweets. Cette table sera sans doutes amené à évoluer pour intégrer son "type" (tweet simple, réponse, retweet...) et lui offir d'autres fonctionnalités (ajout de médias...).
+- Création de la table `tweets` : c'est là ou sera stocké les tweets. Cette table sera sans doutes amené à évoluer pour intégrer son "type" (tweet simple, réponse, retweet...) et lui offir d'autres fonctionnalités (ajout de médias...). [UPDATE: alors non, les media ont été intégrés dans une table à part]
 
 > Encore une fois, si vous avez la moindre question, n'hésitez pas !
-
 <br>
 
 #### **Note à moi-même**
@@ -156,7 +156,7 @@ Et voilà, vous avez une connexion établie, il ne vous reste plus qu'à vous en
 - [x] ajout de la table likes <br>
 
 ## Commentaire V2.5
-Veuillez prendre en compte les ajouts cités ci-dessous (cf. Note à moi-même). Elle référence la majorrité des changements. Des commentaires ont été ajoutés directement sur les fichiers SQL. Veuillez les lire. A la suite de cela, si vous avez encore des intérogations, des remarques, j'y répondrais avec plaisir demain. <br><br>
+Veuillez prendre en compte les ajouts cités ci-dessous (cf. Note à moi-même). Ils référencent la majorité des changements. Des commentaires ont été ajoutés directement sur les fichiers SQL. Veuillez les lire. A la suite de cela, si vous avez encore des intérogations, des remarques, j'y répondrais avec plaisir demain. <br><br>
 N'oubliez pas que c'est un travail commun et qu'il est important que tout le monde soit capable de comprendre ces fichiers, ses raisons, son fonctionnement.
 
 
