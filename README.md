@@ -144,3 +144,20 @@ Et voilà, vous avez une connexion établie, il ne vous reste plus qu'à vous en
 - Création de la table `tweets` : c'est là ou sera stocké les tweets. Cette table sera sans doutes amené à évoluer pour intégrer son "type" (tweet simple, réponse, retweet...) et lui offir d'autres fonctionnalités (ajout de médias...).
 
 > Encore une fois, si vous avez la moindre question, n'hésitez pas !
+
+<br>
+
+#### **Note à moi-même**
+
+- [x] rendre le body du tweet nullable <br>
+- [x] offire la possibilié d'inclure des médias <br>
+- [x] ajouter un type au tweet (default TWEET) : RETWEET + QUOTE <br>
+- [x] ajout de la colonne 'original_tweet_id' <br>
+- [x] ajout de la table likes <br>
+
+## Commentaire V2.5
+Veuillez prendre en compte les ajouts cités ci-dessous (cf. Note à moi-même). Elle référence la majorrité des changements. Des commentaires ont été ajoutés directement sur les fichiers SQL. Veuillez les lire. A la suite de cela, si vous avez encore des intérogations, des remarques, j'y répondrais avec plaisir demain. <br><br>
+N'oubliez pas que c'est un travail commun et qu'il est important que tout le monde soit capable de comprendre ces fichiers, ses raisons, son fonctionnement.
+
+
+Bon courage à tous pour la suite de votre projet ! 🚀
