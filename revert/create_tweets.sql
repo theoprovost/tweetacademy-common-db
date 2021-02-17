@@ -4,6 +4,6 @@ BEGIN;
 
 use twa_common_db;
 
-DROP IF EXISTS TWEET CASCADE;
+DROP IF EXISTS tweets CASCADE;
 
 COMMIT;
