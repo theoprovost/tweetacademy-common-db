@@ -11,6 +11,7 @@
 >Je vous en remets à la documentation de git pour comprendre ces commandes.
 <br><br>
 > ➕ Des commentaires ont été ajoutés à la fin de ce fichier :) <br><br>
+>NB: Suite à des problèmes de connexion à l'utilisateur root rencontré par certains,je vous laisse de la doc pour trouble-shoot tout ça : https://devanswers.co/how-to-reset-mysql-root-password-ubuntu/
 
 
 ```
@@ -158,7 +159,7 @@ PS : des colonnes ayant été ajoutées dans les tables de la V1, je vous consei
 - [x] ajout de la colonne 'original_tweet_id' <br>
 - [x] ajout de la table likes <br>
 
-## Commentaires V2.5
+## Commentaire V2.5
 Veuillez prendre en compte les ajouts cités ci-dessous (cf. Note à moi-même). Ils référencent la majorité des changements. Des commentaires ont été ajoutés directement sur les fichiers SQL. Veuillez les lire. A la suite de cela, si vous avez encore des intérogations, des remarques, j'y répondrais avec plaisir demain. <br><br>
 N'oubliez pas que c'est un travail commun et qu'il est important que tout le monde soit capable de comprendre ces fichiers, ses raisons, son fonctionnement.
 
