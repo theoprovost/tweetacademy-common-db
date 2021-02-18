@@ -11,6 +11,7 @@
 >Je vous en remets à la documentation de git pour comprendre ces commandes.
 <br><br>
 > ➕ Des commentaires ont été ajoutés à la fin de ce fichier :) <br><br>
+>NB: Suite à des problèmes de connexion à l'utilisateur root rencontré par certains,je vous laisse de la doc pour trouble-shoot tout ça : https://devanswers.co/how-to-reset-mysql-root-password-ubuntu/
 
 
 ```
