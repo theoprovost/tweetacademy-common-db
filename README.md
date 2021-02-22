@@ -159,9 +159,15 @@ PS : des colonnes ayant été ajoutées dans les tables de la V1, je vous consei
 - [x] ajout de la colonne 'original_tweet_id' <br>
 - [x] ajout de la table likes <br>
 
-## Commentaire V2.5
+## Commentaires V.2.5
 Veuillez prendre en compte les ajouts cités ci-dessous (cf. Note à moi-même). Ils référencent la majorité des changements. Des commentaires ont été ajoutés directement sur les fichiers SQL. Veuillez les lire. A la suite de cela, si vous avez encore des intérogations, des remarques, j'y répondrais avec plaisir demain. <br><br>
 N'oubliez pas que c'est un travail commun et qu'il est important que tout le monde soit capable de comprendre ces fichiers, ses raisons, son fonctionnement.
 
 
 Bon courage à tous pour la suite de votre projet ! 🚀
+
+## (Commentaires V.3)
+Cette version n'est pas encore veritable finit mais voici quelques elements qui ont été ajoutés dans cette version.
+- Création de la table `Entities` : cette table a pour but de stocker les entités (mentions, hasthags...)
+
+N'hésitez pas si vous avez des besoins particuliers/des reflexions.. ou des problèmes ! :)
