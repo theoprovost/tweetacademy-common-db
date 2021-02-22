@@ -6,3 +6,4 @@ create_tweets 2021-02-11T15:23:08Z Théo Provost <theo.provost@epitech.eu> # Tab
 create_followers 2021-02-11T15:35:43Z Théo Provost <theo.provost@epitech.eu> # Followers table creation
 create_likes 2021-02-17T13:33:18Z Théo Provost <theo.provost@epitech.eu> # Likes table creation
 tweet_media 2021-02-17T13:36:13Z Théo Provost <theo.provost@epitech.eu> # Tweet_media table creation -- used to store media contains in tweets
+create_entity 2021-02-22T14:31:44Z Théo Provost <theo.provost@epitech.eu> # Entities table creation
